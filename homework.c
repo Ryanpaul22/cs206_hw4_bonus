@@ -7,7 +7,7 @@ int main()
     srand(seed);
     
     int currEvent = 0;
-    double totalEvents = 100000000; // number of events you want to run (I suggest atleast 1,000,000, the program might take a few seconds to complete based on how big this number is)
+    double totalEvents = 100000000; // number of events you want to run (with this current value, the program will require roughly 10 seconds to complete)
     double eValTot = 0; // keeping track of the number of people who recieved their sandwich over the course of all events
     double eValAvg = 0; // average number of people who recieved their sandwich per event (approx expected number)
     
